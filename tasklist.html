@@ -1,0 +1,227 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>TaskList</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/tasklist/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/tasklist/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Background (Rectangle) -->
+      <div id="u252" class="ax_default box_3" data-label="Background">
+        <div id="u252_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u253" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- NamePrompt (Rectangle) -->
+      <div id="u254" class="ax_default box_1" data-label="NamePrompt">
+        <div id="u254_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u255" class="text">
+          <p><span>Task Name:</span></p>
+        </div>
+      </div>
+
+      <!-- DueDatePrompt (Rectangle) -->
+      <div id="u256" class="ax_default box_1" data-label="DueDatePrompt">
+        <div id="u256_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u257" class="text">
+          <p><span>Date:</span></p>
+        </div>
+      </div>
+
+      <!-- TimePrompt (Rectangle) -->
+      <div id="u258" class="ax_default box_1" data-label="TimePrompt">
+        <div id="u258_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u259" class="text">
+          <p><span>Time:</span></p>
+        </div>
+      </div>
+
+      <!-- GroupMembersPrompt (Rectangle) -->
+      <div id="u260" class="ax_default box_1" data-label="GroupMembersPrompt">
+        <div id="u260_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u261" class="text">
+          <p><span>Group Members:</span></p>
+        </div>
+      </div>
+
+      <!-- TagPrompt (Rectangle) -->
+      <div id="u262" class="ax_default box_1" data-label="TagPrompt">
+        <div id="u262_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u263" class="text">
+          <p><span>Tag:</span></p>
+        </div>
+      </div>
+
+      <!-- PriorityPrompt (Rectangle) -->
+      <div id="u264" class="ax_default box_1" data-label="PriorityPrompt">
+        <div id="u264_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u265" class="text">
+          <p><span>Prioity:</span></p>
+        </div>
+      </div>
+
+      <!-- FinishButton (Rectangle) -->
+      <div id="u266" class="ax_default box_1" data-label="FinishButton">
+        <div id="u266_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u267" class="text">
+          <p><span>&gt;</span></p>
+        </div>
+      </div>
+
+      <!-- BackButton (Rectangle) -->
+      <div id="u268" class="ax_default box_1" data-label="BackButton">
+        <div id="u268_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u269" class="text">
+          <p><span>&lt;</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u270" class="ax_default text_field">
+        <input id="u270_input" type="text" value=""/>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u271" class="ax_default text_field">
+        <input id="u271_input" type="text" value=""/>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u272" class="ax_default text_field">
+        <input id="u272_input" type="text" value=""/>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u273" class="ax_default text_field">
+        <input id="u273_input" type="text" value=""/>
+      </div>
+
+      <!-- Unnamed (Droplist) -->
+      <div id="u274" class="ax_default droplist">
+        <select id="u274_input">
+          <option value="Fitness">Fitness</option>
+          <option value="Scholastics">Scholastics</option>
+          <option value="Health">Health</option>
+          <option value="Career">Career</option>
+        </select>
+      </div>
+
+      <!-- PriorityEnter (Droplist) -->
+      <div id="u275" class="ax_default droplist" data-label="PriorityEnter">
+        <select id="u275_input">
+          <option value="High">High</option>
+          <option value="Medium/High">Medium/High</option>
+          <option value="Medium">Medium</option>
+          <option value="Medium/Low">Medium/Low</option>
+          <option value="Low">Low</option>
+          <option value="N/A">N/A</option>
+        </select>
+      </div>
+
+      <!-- NavBar (Group) -->
+      <div id="u276" class="ax_default" data-label="NavBar" data-width="665" data-height="40">
+
+        <!-- TitleBar (Rectangle) -->
+        <div id="u277" class="ax_default box_1" data-label="TitleBar">
+          <div id="u277_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u278" class="text">
+            <p><span>Fokus</span></p>
+          </div>
+        </div>
+
+        <!-- btnNavHome (Rectangle) -->
+        <div id="u279" class="ax_default button" data-label="btnNavHome">
+          <div id="u279_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u280" class="text">
+            <p><span>Home</span></p>
+          </div>
+        </div>
+
+        <!-- btnNavOverview (Rectangle) -->
+        <div id="u281" class="ax_default button" data-label="btnNavOverview">
+          <div id="u281_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u282" class="text">
+            <p><span>Settings</span></p>
+          </div>
+        </div>
+
+        <!-- btnNavCareer (Rectangle) -->
+        <div id="u283" class="ax_default button" data-label="btnNavCareer">
+          <div id="u283_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u284" class="text">
+            <p><span>Overview</span></p>
+          </div>
+        </div>
+
+        <!-- btnNavHobbies (Rectangle) -->
+        <div id="u285" class="ax_default button" data-label="btnNavHobbies">
+          <div id="u285_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u286" class="text">
+            <p><span>Career</span></p>
+          </div>
+        </div>
+
+        <!-- btnNavHealth (Rectangle) -->
+        <div id="u287" class="ax_default button" data-label="btnNavHealth">
+          <div id="u287_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u288" class="text">
+            <p><span>Health</span></p>
+          </div>
+        </div>
+
+        <!-- btnNavScholastics (Rectangle) -->
+        <div id="u289" class="ax_default button" data-label="btnNavScholastics">
+          <div id="u289_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u290" class="text">
+            <p><span>Scholastics</span></p>
+          </div>
+        </div>
+
+        <!-- btnNavFitness (Rectangle) -->
+        <div id="u291" class="ax_default button" data-label="btnNavFitness">
+          <div id="u291_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u292" class="text">
+            <p><span>Fitness</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
